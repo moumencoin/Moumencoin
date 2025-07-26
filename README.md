@@ -1,16 +1,22 @@
-## Hi there 👋
 
-<!--
-**moumencoin/Moumencoin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# MoumenCoin Landing Page
 
-Here are some ideas to get you started:
+This is the official landing page for MoumenCoin, a token built on the Solana blockchain.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Files
+
+- `index.html`: The main page.
+- `logo.png`: The animated logo image.
+
+## How to Host on GitHub Pages
+
+1. Create a GitHub repository named `moumencoin`.
+2. Upload both `index.html` and `logo.png` files to the root of the repository.
+3. Go to Repository Settings > Pages.
+4. Under "Source", choose "Deploy from a branch" and select the `main` branch and `/ (root)` folder.
+5. Save. Your page will be available at:
+   ```
+   https://yourusername.github.io/moumencoin/
+   ```
+
+Replace `yourusername` with your GitHub username.

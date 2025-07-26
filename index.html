@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MoumenCoin - Official Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d0d0d;
+      color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    .logo {
+      margin-top: 40px;
+      width: 200px;
+      height: 200px;
+      animation: swing 4s infinite alternate ease-in-out;
+    }
+
+    @keyframes swing {
+      0% { transform: rotate(-5deg); }
+      100% { transform: rotate(5deg); }
+    }
+
+    .title {
+      font-size: 2.5em;
+      margin: 20px 0 10px;
+      font-weight: bold;
+      color: #00ffc3;
+    }
+
+    .description {
+      max-width: 600px;
+      font-size: 1.1em;
+      color: #ccc;
+      margin-bottom: 40px;
+    }
+
+    .wallet-section {
+      background-color: #1a1a1a;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      width: 90%;
+      max-width: 600px;
+    }
+
+    .wallet-section h3 {
+      color: #00ffc3;
+      margin-bottom: 10px;
+    }
+
+    .wallet-section input {
+      width: 80%;
+      padding: 10px;
+      margin-top: 10px;
+      font-size: 1em;
+      border-radius: 5px;
+      border: none;
+    }
+
+    .wallet-section button {
+      padding: 10px 20px;
+      margin: 10px;
+      background-color: #00ffc3;
+      color: #000;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .social-links a {
+      margin: 0 10px;
+      color: #00ffc3;
+      text-decoration: none;
+      font-size: 1.2em;
+    }
+
+    .contract {
+      margin-top: 30px;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="logo.png" alt="MoumenCoin Logo" class="logo">
+
+  <div class="title">Welcome to MoumenCoin</div>
+  <div class="description">
+    MoumenCoin is a decentralized token built on the Solana blockchain, created to represent a new era of digital identity, freedom, and innovation. Join the revolution and be a part of something truly unique.
+  </div>
+
+  <div class="wallet-section">
+    <h3>Buy or Sell MoumenCoin</h3>
+    <input type="text" placeholder="Enter wallet address">
+    <br>
+    <button>Buy</button>
+    <button>Sell</button>
+  </div>
+
+  <div class="social-links">
+    <a href="https://twitter.com/" target="_blank">Twitter</a>
+    <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+  </div>
+
+  <div class="contract">
+    Smart Contract: <br>
+    <code>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</code>
+  </div>
+
+</body>
+</html>
